@@ -1,0 +1,35 @@
+{
+  "name": "driveway_sharing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write --double-quote --no-semi --print-width=120 --tab-width=2 \"src/**/*.{js,jsx} \"",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Alex Yang",
+  "license": "MIT",
+  "keywords": [],
+  "description": "backend config for driveway sharing app",
+  "dependencies": {
+    "bson-ext": "^2.0.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "node": "^14.13.1",
+    "react": "^16.14.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2"
+  }
+}
